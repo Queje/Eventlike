@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-    default from: 'no-reply@thawing-harbor-26432.herokuapp.com'
+    default from: 'andysender@yopmail.com'
  
   def welcome_email(user)
     #on récupère l'instance user pour ensuite pouvoir la passer à la view en @user
