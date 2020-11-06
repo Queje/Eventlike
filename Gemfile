@@ -57,7 +57,7 @@ gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'mast
 
 gem 'activerecord-reset-pk-sequence'
 
-gem 'letter_opener'
+gem 'letter_opener', :group => :development
 
 gem 'dotenv-rails'
 
